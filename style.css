@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: greenyellow;
+  border-bottom: 3px solid grey;
+  border-right: 3px solid grey;
+  cursor: pointer;
+  transition: background-color 1s, color 1s ease-in-out;
+}
+
+button:hover {
+  background-color: #036635;
+  color: white;
+}
+
+#chance-area,
+#result-area,
+input,
+.button-area {
+  margin-bottom: 10px;
+}
