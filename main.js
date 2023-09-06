@@ -29,7 +29,7 @@ function gameStart() {
   }
 
   chances--;
-  chanceArea.innerText = `남은 목숨 : ${chances} 개`;
+  chanceArea.innerText = `당신의 남은 목숨 : ${chances} 개`;
 
   if (userInputValue < randomNumber) {
     resultArea.innerText = "숫자좀 더 써봐..";
@@ -48,6 +48,7 @@ function gameStart() {
 }
 
 function gameReset() {
+  randomMaker();
   chances = 5;
   userInput.value = "";
   historyArray = [];
