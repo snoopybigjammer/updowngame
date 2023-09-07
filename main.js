@@ -43,7 +43,7 @@ function gameStart() {
 
   if (chances < 1) {
     startBtn.disabled = true;
-    resultArea.innerText = "넌 기회를 소중히 하지 않았지..";
+    resultArea.innerText = `아쉽지만 정답은 ${randomNumber}입니다`;
   }
 }
 
