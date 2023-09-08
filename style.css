@@ -36,8 +36,7 @@ button:hover {
 
 #chance-area,
 #result-area,
-input,
-.button-area {
+input .button-area {
   margin-bottom: 10px;
 }
 
