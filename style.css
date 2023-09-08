@@ -30,5 +30,6 @@ input,
   margin-bottom: 10px;
 }
 
-
-bc
+#chance-area {
+  font-weight: 600;
+}
