@@ -65,7 +65,7 @@ function gameStart() {
 
   if (chances < 1) {
     startBtn.disabled = true;
-    resultArea.innerText = `아쉽지만 정답은 ${randomNumber}입니다`;
+    resultArea.innerText = `좀 더 [노오력]했다면 답이 ${randomNumber}인 걸 알았을텐데..`;
   }
 }
 
@@ -75,7 +75,7 @@ function gameReset() {
   chanceArea.style.color = "black";
   userInput.value = "";
   historyArray = [];
-  chanceArea.innerText = "남은 목숨 : 5개";
+  chanceArea.innerText = "당신의 남은 목숨 : 5개";
   resultArea.innerText = "누가 이겼는지 보여줌";
   startBtn.disabled = false;
 }
